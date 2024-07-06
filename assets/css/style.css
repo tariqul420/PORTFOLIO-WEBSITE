@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* common cods & reset cods */
+:root {
+    --font-family: font-family: "Open Sans", sans-serif;
+    --primary-color: rgb(253, 110, 10);
+    --second-color: rgb(71, 71, 71);
+    --third-color: rgb(117, 117, 117);
+}
+
+.primary-color {
+    color: var(--primary-color);
+}
+
+.second-color {
+    color: var(--second-color);
+}
+
+.third-color {
+    color: var(--third-color);
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border: none;
+    font-weight: 700;
+    color: #fff;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body {
+    font-family: var(--font-family);
+}
+
+/* nav bar start */
+header{
+    background: url(/assets/images/developer.png), url(../images/header_bg.png), #fef8f3;
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-size:contain, auto;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav h3 {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 51px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* banner style start */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+
+.banner-content{
+    max-width: 580px;
+}
+.banner-greetings {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: -30px;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+    margin-bottom: 40px;
+}
+
+.banner-description{
+    color: var(--second-color);
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.profile{
+    width: 584px;
+    height: auto;
+}
