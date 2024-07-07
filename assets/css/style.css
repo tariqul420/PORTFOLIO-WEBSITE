@@ -28,6 +28,11 @@
     padding: 18px 35px;
     border-radius: 5px;
     font-size: 20px;
+    transition: all 0.8s;
+}
+
+.btn-primary:hover {
+    transform: scale(1.1);
 }
 
 .section-title {
@@ -202,6 +207,11 @@ main {
     border-radius: 10px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     background: rgb(255, 255, 255);
+    transition: 0.8s;
+}
+
+.card:hover {
+    transform: scale(1.1);
 }
 
 .card img {
@@ -272,6 +282,7 @@ main {
     text-align: left;
 }
 
+
 .btn-container {
     margin-top: 2rem;
     margin-bottom: 3rem;
@@ -290,7 +301,8 @@ footer {
     max-width: 1140px;
     margin: 0 auto;
 }
-.contact-section{
+
+.contact-section {
     max-width: 1180px;
     margin: 0 auto;
 }
@@ -314,11 +326,30 @@ footer {
     letter-spacing: 0%;
     text-align: left;
 }
-.contact-icon{
-    letter-spacing: 20px;
+
+.contact-icon {
+    letter-spacing: 40px;
 }
 
-input, textarea{
+.contact-icon a {
+    text-decoration: none;
+}
+
+.icon {
+    transition: 0.4s;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    border: 1px solid white;
+}
+
+.icon:hover {
+    background-color: grey;
+    transform: scale(1.2);
+}
+
+input,
+textarea {
     height: 64px;
     width: 461px;
     border: none;
@@ -326,16 +357,28 @@ input, textarea{
     margin-bottom: 24px;
 }
 
-input ,textarea:focus{
+input,
+textarea:focus {
     outline: 0;
 }
-input, textarea::placeholder{
+
+input,
+textarea::placeholder {
     padding-left: 1rem;
     font-weight: bold;
     font-family: var(--font-family);
     font-size: 16px;
 }
-textarea{
+
+textarea {
     resize: none;
     height: 180px;
+}
+
+.hover:hover {
+    background: green;
+}
+
+.reset:hover {
+    background: red;
 }
