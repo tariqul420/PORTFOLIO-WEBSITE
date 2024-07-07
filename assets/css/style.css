@@ -191,7 +191,7 @@ main {
 }
 
 /* card section start */
-.card-container{
+.card-container {
     display: flex;
     gap: 57px;
 }
@@ -229,4 +229,113 @@ main {
     letter-spacing: 0%;
     text-align: left;
     padding: 10px;
+}
+
+/* resume start hear */
+.resume {
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.resume-container {
+    display: flex;
+    gap: 5rem;
+}
+
+.resume-colum-title {
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.experience-title {
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.experience-description {
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.btn-container {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+
+}
+
+footer {
+    height: 780px;
+    background: #fef8f3;
+    margin-top: 15rem;
+}
+
+.contact {
+    display: flex;
+    gap: 5rem;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.contact-section{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.contact-title {
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.contact-experience-description {
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.contact-icon{
+    letter-spacing: 20px;
+}
+
+input, textarea{
+    height: 64px;
+    width: 461px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+
+input ,textarea:focus{
+    outline: 0;
+}
+input, textarea::placeholder{
+    padding-left: 1rem;
+    font-weight: bold;
+    font-family: var(--font-family);
+    font-size: 16px;
+}
+textarea{
+    resize: none;
+    height: 180px;
 }
